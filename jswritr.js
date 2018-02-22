@@ -132,7 +132,6 @@
 				
 				if ( k == 0 ) {
 					
-					console.log('k = ' + k);
 					( function() {
 						
 						// Just a pause before erasing the content
