@@ -9,6 +9,7 @@ Include **jswritr.js** file in your website footer:
 ```
 <script type="text/javascript" src="PATH/TO/jswritr.js"></script>
 ````
+Edit **jswritr.js** with your sentences, starting from line **16**
 
 ### 2. CSS
 Add this bit of CSS code:
