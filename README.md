@@ -9,18 +9,16 @@ Include **jswritr.js** file in your website footer:
 ```
 <script type="text/javascript" src="PATH/TO/jswritr.js"></script>
 ````
-Edit **jswritr.js** with your sentences, starting from line **16**
 
 ### 2. CSS
 Add this bit of CSS code:
 ```
-#phrase-div,
-#blink-div {
-	display: inline-block;
+#writr-div {
+    width: 100%;
 }
 
-#blink-div {
-	margin-left: -5px;
+#blink-container {
+    margin-left: -1vw;
 }
 ```
 
@@ -28,13 +26,16 @@ Add this bit of CSS code:
 Add this little structure at the place where you want jsWritr to show up
 ```
 <div id="writr-div">
-    <div id="phrase-div" class="phrase-div"></div>
-    <div id="blink-div"></div>
+    <span id="phrase-span"></span>
+    <span id="blink-span"></span>
 </div>
 ```
 
 ## Version
 
+* 0.0.2 - 2018-02-23
+  Multiline display bug fix
+  
 * 0.0.1 - 2018-02-22
   Initial Release
 
