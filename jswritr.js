@@ -58,14 +58,14 @@
 	/**
 	 * Phrase div class
 	 */
-	var phraseDiv = document.getElementById('phrase-div');
+	var phraseDiv = document.getElementById('phrase-span');
 	phraseDiv.textContent = ""; // empty string
 	
 	
 	/**
 	 * Blinking char div class
 	 */
-	var blinkingDiv = document.getElementById('blink-div');
+	var blinkingDiv = document.getElementById('blink-span');
 	
 	
 	/**
